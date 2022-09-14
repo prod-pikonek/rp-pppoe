@@ -1,0 +1,10 @@
+/var/log/pppoe-server.log {
+	# su #
+	daily
+	copytruncate
+	rotate 1
+	compress
+	delaycompress
+	notifempty
+	nomail
+}
